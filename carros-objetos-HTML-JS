@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+     <script>
+      const loja ={
+       carro: "Palio 2.0",
+       modelo: "Fire Way",
+       preco: 15000, // Corrigido
+       marca: "Fiat",
+       ano: 2020,
+       cor: "Vermelho",
+       lataria: "Boa"
+      }
+
+      const loja2 = {
+       carro: "Vectra",
+       modelo: "Gm",
+       preco: 15000, // Corrigido
+       marca: "chevrolet",
+       ano: 2001,
+       cor: "Prata",
+       lataria: "Boa"
+      }
+      const loja3 = {
+        carro: "Gol Bola",
+        cor: "Preto",
+        preco: 15000, // Corrigido
+        ano: 2020,
+        marca: "Volkswagen",
+        modelo: "Gol",
+        lataria: "Boa"
+      }
+          loja.carro = "Palio 2.0";
+          loja2.carro = "Vectra";
+          loja3.carro = "Gol Bola";
+          loja.ano = 2020;
+          loja2.ano = 2001;
+          loja3.ano = 2020;
+
+          console.log(loja);
+          console.log(loja2);
+          console.log(loja3);
+          console.log(`O veiculo é um ${loja.carro} da marca ${loja.marca} do ano ${loja.ano}`);
+          console.log(`O veiculo é um ${loja2.carro} da marca ${loja2.marca} do ano ${loja2.ano}`);
+          console.log(`O veiculo é um ${loja3.carro} da marca ${loja3.marca} do ano ${loja3.ano}`);
+
+     </script>
+</head>
+<body>
+    
+</body>
+
+</html>
